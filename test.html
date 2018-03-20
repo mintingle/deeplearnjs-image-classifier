@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<div id='target' ondrop='dropit(event);' ondragover='dragoverit(event);'>
+	  Drag another image onto this image to predict (make sure browser window is focused).
+	  <br><br>
+	  If you have cross origin problems, download the image to your computer
+	  first, then drag it here.
+	  <div id='img'><img id='cat' src='https://storage.googleapis.com/learnjs-data/images/cat.jpeg' crossorigin></div>
+	</div>
+
+	<script type="text/javascript" src='./dl.js'></script>
+	<script type="text/javascript" src='./dl-squeeze.js'></script>
+	<script type="text/javascript" src='./test.js'></script>
+</body>
+</html>
