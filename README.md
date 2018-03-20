@@ -7,3 +7,5 @@ Quick drag-and-drop demo that classifies the image you drop into the browser via
 </p>
 
 This uses SqueezeNet through DeepLearnJS: https://unpkg.com/deeplearn-squeezenet
+
+Original drag/drop demo code written by Daniel Smilkov (dsmilkov) for DeepLearnJS Playground
